@@ -1,11 +1,11 @@
 {
     "manifestVersion": 1.0,    
     "id": "vsts-work-item-one-click-child-links",    
-    "version": "0.12.1",
+    "version": "0.12.5",
     "name": "1-Click Child-Links",
     "description": "Add Child-Links from pre-defined templates with a single click.",
     "public": false,
-    "publisher": "ruifig",
+    "publisher": "JennaWest",
     "repository": {
         "type": "git",
         "uri": "https://github.com/figueiredorui/1-click-child-links"
@@ -28,7 +28,7 @@
         "Tasks"
     ],
     "categories": [
-        "Plan and track"
+        "Azure Boards"
     ],
     "content": {
         "details": {

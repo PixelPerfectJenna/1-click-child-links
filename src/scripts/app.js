@@ -168,7 +168,7 @@ define(["TFS/WorkItemTracking/Services", "TFS/WorkItemTracking/RestClient", "TFS
                                         WriteTrace('updateWorkItem completed')
                                         setTimeout(function () {
                                             navigationService.reload();
-                                        }, 10000);
+                                        }, 25000);
                                     });
                             }, function (error) {
                                     ShowDialog(" Error updateWorkItem: " + JSON.stringify(error));
